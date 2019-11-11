@@ -1,0 +1,40 @@
+{
+    "name": "heroku-websockets",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www",
+        "watch": "nodemon --exec npm start"
+    },
+    "dependencies": {
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "express": "~4.16.1",
+        "hbs": "~4.0.4",
+        "http-errors": "~1.6.3",
+        "morgan": "~1.9.1",
+        "node-sass-middleware": "0.11.0",
+        "socket.io": "^2.3.0"
+    },
+    "prettier": {
+        "arrowParens": "avoid",
+        "bracketSpacing": true,
+        "htmlWhitespaceSensitivity": "css",
+        "insertPragma": false,
+        "jsxBracketSameLine": false,
+        "jsxSingleQuote": false,
+        "printWidth": 120,
+        "proseWrap": "preserve",
+        "quoteProps": "as-needed",
+        "requirePragma": false,
+        "semi": true,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "all",
+        "useTabs": false,
+        "vueIndentScriptAndStyle": false
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.4"
+    }
+}
